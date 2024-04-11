@@ -1,0 +1,9 @@
+.text{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.text p{
+    font-size: 35px;
+    line-height: 50px;
+    color: #707070;
+}
