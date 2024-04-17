@@ -9,5 +9,18 @@
     font-size: 35px;
     padding: 14px 33px;
     line-height: 50px;
+    position: relative;
 }
-    
+
+.button::after{
+    content: "";
+    background-image: url("https://www.svgrepo.com/show/4291/right-arrow.svg");
+    width: 28px;
+    display: block;
+    height: 34px;
+    background-size: 28px 34px;
+    position: absolute;
+    right: 14px;
+    top: 50%;
+    transform: translateY(-50%)
+  }
