@@ -14,13 +14,13 @@
 
 .button::after{
     content: "";
-    background-image: url("https://www.svgrepo.com/show/4291/right-arrow.svg");
+    background-image: url("../css/img/right-arrow-svgrepo-com\ 1.svg");
     width: 28px;
     display: block;
     height: 34px;
     background-size: 28px 34px;
     position: absolute;
-    right: 14px;
+    right: 31px;
     top: 50%;
     transform: translateY(-50%)
   }
